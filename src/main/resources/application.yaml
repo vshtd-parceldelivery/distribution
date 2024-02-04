@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: distribution
+  config:
+    import: configserver:http://${HOST}:8880
